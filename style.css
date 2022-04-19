@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.fa-circle-xmark {
+    color: red;
+    float: right;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: lighter;
+    color: white;
+    font-size: 25;
+    background-color: #3394bd64;
+    padding: 10px 20px 10px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+#kanban {
+    background-image: url(Images/Windows-XP_Bliss.webp);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.titleCard,
+.tituloTask,
+p {
+    font-family: Roboto;
+}
+
+.card {
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    width: calc(20% - 50px);
+    background-color: rgba(255, 255, 255, 0.734);
+    border-radius: 15px;
+}
+
+.task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.task:hover {
+    background-color: #2f6d88c7;
+    color: white;
+    cursor: pointer;
+}
+
+.task:hover .fa-circle-xmark {
+    color: black;
+}
+
+.task:hover .fa-mobile-screen {
+    color: #2f6d88c7;
+}
+
+.task:hover .fa-desktop {
+    color: #2f6d88c7;
+}
+
+.task:hover .fa-cube {
+    color: #2f6d88c7;
+}
+
+.tags {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.front,
+.back,
+.device {
+    display: inline;
+}
+
+.fa-mobile-screen {
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: #efd469;
+    border-radius: 50%;
+    width: 9%;
+}
+
+.fa-desktop {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #70d472;
+    border-radius: 50%;
+}
+
+.fa-cube {
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: #ec6540;
+    border-radius: 50%;
+    width: 9%;
+}
